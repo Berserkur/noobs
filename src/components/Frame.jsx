@@ -5,8 +5,8 @@ function Frame() {
   return (
     <div className="frame">
       <Video />
-      <p>Icelandic Fish Soup</p>
-      <p>by Unnur Jonsdottir</p>
+      <p className="video-title">Icelandic Fish Soup</p>
+      <p className="video-composer">by Unnur Jonsdottir</p>
     </div>
   );
 }

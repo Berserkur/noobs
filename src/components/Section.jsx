@@ -3,12 +3,16 @@ import Frame from "./Frame";
 
 function Section() {
   return (
-    <div className="category">
-      <h1>Cooking under a minute</h1>
-      <Frame />
-      <Frame />
-      <Frame />
-      <Frame />
+    <div>
+      <h1 className="section-headline">Cooking under a minute</h1>
+      <div className="category">
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+        <Frame />
+      </div>
     </div>
   );
 }
