@@ -1,14 +1,11 @@
-import React from "react";
-import Video from "./Video";
+// import React from "react";
+// import Video from "./videos/Video";
+// import Video1 from "./videos/Video1";
 
-function Frame() {
-  return (
-    <div className="frame">
-      <Video />
-      <p className="video-title">Icelandic Fish Soup</p>
-      <p className="video-composer">by Unnur Jonsdottir</p>
-    </div>
-  );
-}
+// function Frame() {
+//   return (
 
-export default Frame;
+//   );
+// }
+
+// export default Frame;
