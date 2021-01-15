@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import Hamburger from "./Hamburger";
 
 function Header() {
   return (
@@ -13,11 +14,15 @@ function Header() {
             {" "}
             <FontAwesomeIcon
               className="search-icon"
-              size="x"
+              size="1x"
               icon={faSearch}
             />{" "}
           </button>
         </form>
+        <a href="" className="login">
+          Login
+        </a>
+        <Hamburger />
       </header>
     </div>
   );
